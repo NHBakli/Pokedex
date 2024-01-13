@@ -1,6 +1,10 @@
+import Home from "./page/home";
+
 function App() {
   return (
-    <h1>Bienvenue !</h1>
+    <div>
+      <Home/>
+    </div>
   );
 }
 

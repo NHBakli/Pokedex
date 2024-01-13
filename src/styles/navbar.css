@@ -1,0 +1,53 @@
+@import url('./font.css');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+ul {
+    box-shadow: 0px 17px 17px 0px #ff0000a4;
+    background-color: #ef5350;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+}
+
+li h1 {
+    font-family: 'Pokemon', sans-serif;
+    font-size: 36px;
+    color: #feca1b;
+    -webkit-text-stroke: 1px #3761a8;
+    padding: 0%;
+    margin: 0%;
+}
+
+button {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 9%;
+    height: 5vh;
+    border-radius: 10px;
+    background-color: #fff;
+    border: none;
+    font-size: 22px;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+ul li button svg {
+    margin-right: 10px;
+}
+
+ul li button:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    transition: box-shadow 0.3s ease-in-out;
+}
