@@ -1,7 +1,7 @@
 import React from "react";
-import '../styles/card.css';
 
 const Card = ({
+    id,
     name,
     img, 
     type, 
@@ -12,16 +12,16 @@ const Card = ({
 }) => {
 
 return (
-    <div>
-    <picture>
-        <img src={img} alt="Country Flag" />
-    </picture>
-    <section>
-        <h2>{name}</h2>
-        <p>
-            <span className="country-info-highlight"> Type: </span>
-            {type}
-        </p>
+    <div className="card">
+        <picture>
+            <img src={img} alt="Pokemon" />
+        </picture>
+        <section>
+            <h2>{name}</h2>
+            <p>
+                <span className="pokemon infos"></span>
+                {type}
+            </p>
         </section>
     </div>
 );
